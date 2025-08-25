@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Denavi-MD</title>
+</head>
+<body>
+    <h1>Welcome to Denavi-MD</h1>
+    <p>This bot helps with session ID generation.</p>
+    <button onclick="generateSessionId()">Generate Session ID</button>
+    <div id="sessionId"></div>
+
+    <script>
+        async function generateSessionId() {
+            const response = await fetch('/api/session-id');
+            const sessionId = await response.text();
+            document.getElementById('sessionId').innerText = sessionId;
+        }
+    </script>
+</body>generateSessionIdessionId
