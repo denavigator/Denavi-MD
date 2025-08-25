@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: BAN-MD
+    name: Denavi-MD 
     env: node
     plan: free
-    repo: https://github.com/banksherman/BAN-MD
+    repo: https://github.com/denavigator/Denavi-MD
     branch: main
     buildCommand: npm install
     startCommand: npm start
