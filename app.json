@@ -1,8 +1,8 @@
 {
-  "name": "E3_HACKER_MD",
-  "description": "Javascript WhatsApp bot made by E3_HACKER_MD",
+  "name": "Denavi-MD",
+  "description": "Javascript WhatsApp bot made by Denavi-MD",
   "logo": "https://files.catbox.moe/p4yxcn.png",
-  "keywords": ["E3_HACKER_MD"],
+  "keywords": ["Denavi-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "E3_HACKER_MD"
+      "value": "Denavi-MD"
     }, 
       
     "PREFIX": {
